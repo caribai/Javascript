@@ -1,6 +1,17 @@
 body {
     background-color: black;
+    font-family: 'Open sans';
 }
+
+h2 {
+    font-size: 18px;
+}
+
+hr {
+    height: 1px;
+    background-color: darkcyan;
+}
+
 /* NAVBAR */
 
 .navbar-brand {
@@ -12,16 +23,11 @@ body {
     width: 20px;
 }
 
-/* CAROUSEL */
-#inicio {
-    height: 100vh;
-    position: relative;
-}
 
 /*QUIENES SOMOS */
 
 #quienes-somos div h2 {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #quienes-somos div hr {
@@ -33,6 +39,30 @@ body {
     font-size: 12px;
 }
 
-#icon {
+#icon, .card-body {
     background-color: darkcyan;
+}
+
+/* DESTACADOS */
+
+.card-title {
+    font-size: 16px;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+/* CONTACTO */
+#contacto iframe {
+    margin-top: -4px;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgb(28, 147, 169);
+}
+
+footer a {
+    color: white;
 }
