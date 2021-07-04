@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+}
+/* NAVBAR */
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-brand img{
+    width: 20px;
+}
+
+/* CAROUSEL */
+#inicio {
+    height: 100vh;
+    position: relative;
+}
+
+/*QUIENES SOMOS */
+
+#quienes-somos div h2 {
+    font-size: 16px;
+}
+
+#quienes-somos div hr {
+    height: 1px;
+    background-color: darkcyan;
+}
+
+#quienes-somos p {
+    font-size: 12px;
+}
+
+#icon {
+    background-color: darkcyan;
+}
