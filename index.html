@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viajes Chile</title>
+    <!-- Bootstrap CDN-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Fontawesome CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <!-- Mi estilo-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <!-- NAVBAR-->
+    <!-- Navbar componente-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -39,6 +44,8 @@
             </div>
         </div>
       </nav>
+
+    <!--Carousel componente -->
     
     <header id="inicio" class="pt-5 mt-3 pt-md-0 mt-md-0">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -68,11 +75,17 @@
             </a>
           </div>
     </header>
+    
+    <!--Quienes Somos-->
+    <!--Seccion desaparece en pantalla small-->
     <section id="quienes-somos" class="p-3 p-md-5 container d-none d-md-block">
         <div class="text-center text-white">
             <h2>¿Quiénes somos?</h2>
             <hr>
         </div>
+
+    <!-- Uso de grillas bootstrap-->
+
         <div class="row container">
             <div class="col-4 text-white my-5">
                 <div id="icon" class="text-center">
@@ -101,6 +114,10 @@
             </div>
         </div>
     </section>
+
+    <!--Destacados-->
+    <!-- Uso de cards bootstrap -->
+
     <section id="destacados" class="container p-3 p-md-5">
         <div class="text-center text-white">
             <h2>Destacados</h2>
@@ -158,11 +175,20 @@
                 
         </div>
     </section>
+
+    <!--Contacto-->
+
     <section id="contacto" class="container p-3 p-md-5">
         <div class="text-center text-white">
-            <h2>Contacto</h2>
+
+    <!--Tooltip-->
+    
+            <h2 data-toggle="tooltip" data-placement="top" title="No dudes en contactarnos">Contacto</h2>
             <hr>
         </div>
+
+    <!--Formulario Typeform-->
+
         <div class="typeform-widget" data-url="https://form.typeform.com/to/yKq9rxbJ?typeform-medium=embed-snippet"
                  data-hide-headers="true" data-hide-footer="true" style="width: 100%; height: 500px;"></div>
             <script> (function () {
@@ -177,16 +203,19 @@
               }
             })() </script>
     </section>
+
+<!--Footer-->
+
     <footer class="text-center text-white py-3 py-sm-0">
         <div class="row container m-auto py-1">
             <div class="col-12 col-sm-6">
                 <h1 class="font-weight-bold">VIAJES CHILE</h1>
             </div>
             <div class="col-12 col-sm-6 mt-4 mt-sm-0">
-                <i class="fab fa-github-square fa-3x mx-2"></i>
-                <i class="fab fa-linkedin fa-3x mx-2"></i>
-                <i class="fab fa-twitter-square fa-3x mx-2"></i>
-                <i class="fab fa-facebook-square fa-3x mx-2"></i>  
+                <a href="www.github.com"><i class="fab fa-github-square fa-3x mx-2"></i></a>
+                <a href="www.linkedin.com"></a><i class="fab fa-linkedin fa-3x mx-2"></i>
+                <a href="www.twitter.com"></a><i class="fab fa-twitter-square fa-3x mx-2"></i>
+                <a href="www.facebook.com"></a><i class="fab fa-facebook-square fa-3x mx-2"></i>  
             </div>
         </div>
         
